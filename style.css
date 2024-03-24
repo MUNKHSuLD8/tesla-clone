@@ -12,7 +12,7 @@ html {
     width: 100%;
     position: fixed;
     background-color: transparent;
-    background: rgba(59, 62, 68, 0.65);
+    background: rgba(102, 104, 109, 0.65);
     backdrop-filter: blur(4px);
     height: 56px;
     display: flex;
@@ -88,13 +88,12 @@ button {
 }
 #section-6 {
     display: flex;
-    position: absolute;
+    position: relative;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
     background-size: cover;
-
 }
 #section-7 {
     display: flex;
@@ -153,7 +152,7 @@ button {
     gap: 2px;
     color: #FFFFFF;
 }
-.decs2 {
+.desc2 {
     margin-top: 128px;
     display: flex;
     flex-direction: column;
@@ -168,7 +167,7 @@ button {
 .content2 {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 32px;
 
 }
 .color {
@@ -181,10 +180,14 @@ button {
     display: flex;
     gap: 24px;
 }
-.video source {
+.video {
     width: 100%;
     height: 100%;
-
+    object-fit: cover;
+}
+.video source {
+    width: 100vw;
+    height: 100%;
 }
 .absolute {
   position: absolute;
@@ -192,4 +195,5 @@ button {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  padding-bottom: 55px;
 }
